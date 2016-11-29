@@ -1,3 +1,16 @@
 * evil-calendar
 
 Evil calendar integration.
+
+* Bindings
+
+** Motion
+
+- ~(~ :: ~calendar-backward-month~
+- ~)~ :: ~calendar-forward-month~
+- ~B~ :: ~calendar-backward-week~
+- ~W~ :: ~calendar-forward-week~
+- ~b~ :: ~calendar-backward-day~
+- ~w~ :: ~calendar-forward-day~
+- ~{~ :: ~calendar-backward-year~
+- ~}~ :: ~calendar-forward-year~

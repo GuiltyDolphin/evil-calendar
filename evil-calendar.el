@@ -46,5 +46,19 @@ Active when in Emacs' `calendar-mode'."
 
 (add-hook 'calendar-mode-hook 'evil-calendar-mode)
 
+;;;; Movement
+
+;;; Basic Movement
+
+(evil-define-key 'motion evil-calendar-mode-map
+  "(" 'calendar-backward-month
+  ")" 'calendar-forward-month
+  "B" 'calendar-backward-week
+  "W" 'calendar-forward-week
+  "b" 'calendar-backward-day
+  "w" 'calendar-forward-day
+  "{" 'calendar-backward-year
+  "}" 'calendar-forward-year)
+
 (provide 'evil-calendar)
 ;;; evil-calendar.el ends here
