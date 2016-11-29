@@ -35,5 +35,16 @@
 
 ;;; Code:
 
+(require 'dash)
+(require 'evil)
+
+(define-minor-mode evil-calendar-mode
+  "Minor-mode for evil calendar integration.
+
+Active when in Emacs' `calendar-mode'."
+  :keymap (make-sparse-keymap))
+
+(add-hook 'calendar-mode-hook 'evil-calendar-mode)
+
 (provide 'evil-calendar)
 ;;; evil-calendar.el ends here
