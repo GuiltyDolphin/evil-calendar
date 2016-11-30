@@ -6,11 +6,11 @@ Evil calendar integration.
 
 ** Motion
 
-- ~(~ :: ~calendar-backward-month~
-- ~)~ :: ~calendar-forward-month~
-- ~B~ :: ~calendar-backward-week~
-- ~W~ :: ~calendar-forward-week~
-- ~b~ :: ~calendar-backward-day~
-- ~w~ :: ~calendar-forward-day~
-- ~{~ :: ~calendar-backward-year~
-- ~}~ :: ~calendar-forward-year~
+- ~l~ :: ~calendar-forward-day~
+- ~h~ :: ~calendar-backward-day~
+- ~w~ :: ~calendar-forward-week~
+- ~b~ :: ~calendar-backward-week~
+- ~W~ :: ~calendar-forward-month~
+- ~B~ :: ~calendar-backward-month~
+- ~]]~ :: ~calendar-forward-year~
+- ~[[~ :: ~calendar-backward-year~

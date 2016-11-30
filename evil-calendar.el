@@ -48,17 +48,17 @@ Active when in Emacs' `calendar-mode'."
 
 ;;;; Movement
 
-;;; Basic Movement
+;;; Forward/Backwards
 
 (evil-define-key 'motion evil-calendar-mode-map
-  "(" 'calendar-backward-month
-  ")" 'calendar-forward-month
-  "B" 'calendar-backward-week
-  "W" 'calendar-forward-week
-  "b" 'calendar-backward-day
-  "w" 'calendar-forward-day
-  "{" 'calendar-backward-year
-  "}" 'calendar-forward-year)
+  "l" 'calendar-forward-day
+  "h" 'calendar-backward-day
+  "w" 'calendar-forward-week
+  "b" 'calendar-backward-week
+  "W" 'calendar-forward-month
+  "B" 'calendar-backward-month
+  "]]" 'calendar-forward-year
+  "[[" 'calendar-backward-year)
 
 (provide 'evil-calendar)
 ;;; evil-calendar.el ends here
